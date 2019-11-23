@@ -75,7 +75,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          Regular mask - Special mask
+          {"<mask>"} vs {"<Mask>"}
         </div>
         <div style={{display: count % 2 === 0 ? "none" : "block"}}>
           <IconUsingDefs />
